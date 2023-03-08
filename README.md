@@ -32,8 +32,10 @@ class HomePage extends StatelessWidget {
       body: Center(  
         child: Container(
                 alignment: Alignment.center,
-                height:screenHeightPercentage(context, percentage: 0.08),
-                width: screenWidthPercentage(context, percentage: 0.44),
+                height: DeviceScreenSize.screenHeightInPercentage(context,
+                  percentage: 0.8),
+                width: DeviceScreenSize.screenWidthInPercentage(context,
+                  percentage: 1),
                 child: Image.asset(
                 myimage,
                 fit: BoxFit.fill,

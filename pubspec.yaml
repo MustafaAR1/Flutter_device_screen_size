@@ -1,7 +1,7 @@
 name: device_screen_size
-description: A new Flutter package project.
-version: 0.0.1
-homepage:
+description: A Flutter package for responsive screen height and width
+version: 0.0.2
+homepage: https://github.com/MustafaAR1/Flutter_device_screen_size
 
 environment:
   sdk: '>=2.18.6 <3.0.0'
